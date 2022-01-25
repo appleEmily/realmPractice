@@ -70,7 +70,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         //アラートを出すよ！
         //actionSheetは下から出るやつ
         //alertは普通に真ん中に出るやつ
-        let alert: UIAlertController = UIAlertController(title: "成功", message: "保存しました", preferredStyle: .actionSheet)
+        let alert: UIAlertController = UIAlertController(title: "成功", message: "保存しました", preferredStyle: .alert)
         /*stlyleをcancelにすると、枠外をさわった時に消える。
         destructiveはなんか文字赤くなった
          細かいのはメモに残したよ*/
